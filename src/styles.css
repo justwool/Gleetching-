@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #020304;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.terminal-frame {
+  width: min(100vw - 24px, 1200px);
+  height: min(100vh - 56px, 760px);
+  border: 1px solid #1f292a;
+  background: #06090a;
+}
+
+.hint {
+  color: #6d7372;
+  font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
