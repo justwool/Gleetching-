@@ -1,0 +1,28 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #06090a;
+}
+
+.app-shell {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal-frame {
+  flex: 1;
+  min-height: 0;
+}
+
+.terminal-frame .xterm {
+  height: 100%;
+}
+
+.hint {
+  padding: 6px 10px;
+  font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #5f6766;
+}
