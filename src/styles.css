@@ -1,0 +1,97 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #06090a;
+}
+
+.viewport {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.screen {
+  margin: 0;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  white-space: pre;
+  line-height: 1.1;
+  color: #c8cecc;
+}
+
+.m-screen {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  color: #c8cecc;
+  line-height: 1.25;
+}
+
+.line {
+  margin: 0 0 6px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.h1 {
+  color: #4a9fa0;
+}
+
+.h2 {
+  color: #a866a8;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0 8px;
+}
+
+.controls button {
+  border: 1px solid #1b2224;
+  background: #0f1617;
+  color: #c8cecc;
+  font: inherit;
+  padding: 6px 10px;
+}
+
+.record {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 8px;
+  border: 0;
+  border-top: 1px solid #1b2224;
+  background: transparent;
+  color: inherit;
+}
+
+.record.selected {
+  background: #0f1617;
+}
+
+.name {
+  color: #4a9fa0;
+}
+
+.name.selected {
+  color: #a866a8;
+  font-weight: 600;
+}
+
+.meta {
+  color: #76b270;
+  margin-top: 4px;
+}
+
+.contents {
+  white-space: normal;
+  word-break: break-word;
+  margin-top: 4px;
+}
+
+.footer {
+  color: #76b270;
+  margin-top: 8px;
+}
